@@ -3,7 +3,7 @@ $(function(){
 
     //獲取資料
     const getJson = async() => {
-        const res = await fetch('/public/json/data.json');
+        const res = await fetch('../public/json/data.json');
         data = await res.json();
     }
 
