@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiperTest</title>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+   
+    <!-- tailwind -->
+    <link rel="stylesheet" href="./css/tailwind.css">
+    
+    <!-- swiper -->
+    <script src="./public/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/a43c53b2cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="swiper u-px-[8px] u-h-full">
+        <h2 class="swiper-title u-text-xl u-text-gray-1000 u-font-bold u-mt-0 u-mb-5"></h2>
+        <!-- 輪播本體 -->
+        <div class="swiper-wrapper u-max-h-[calc(100%_-_82px_-_1.25rem)] sm:!u-h-auto lg:!u-h-auto"></div>
+
+        <!-- 輪播控制器 -->
+        <div class="u-swiper-custom-control">
+            <!-- 計數器 -->
+            <div class="u-swiper-custom-pagination"></div>
+            <!-- 導覽按钮 -->
+            <div class="u-swiper-custom-navigation">
+                <div class="u-h-full u-flex u-justify-around u-items-center">
+                    <div class="swiper-prev u-text-blue-new-700">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="swiper-next u-text-blue-new-700">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/index.js"></script>    
+</body>
+</html>
